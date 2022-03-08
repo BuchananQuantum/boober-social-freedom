@@ -30,8 +30,8 @@ const Discussion = ({ data }) => {
         <Row className="g-3 justify-content-between">
           <Col xs={10} className="mt-0">
             <p className="fs--1 text-600 mb-0">
-              The very first general meeting for planning John Buchanans design and
-              development roadmap
+              The very first general meeting for planning John Buchanans design 
+              and development a roadmap
             </p>
           </Col>
 

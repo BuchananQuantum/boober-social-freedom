@@ -16,8 +16,8 @@ const Rights = forwardRef((props, ref) => {
           trade secrets, and copyrights). No rights are granted to you under
           these Terms other than as expressly set forth in these Terms. You will
           respect our proprietary rights. “Boober” and the “Boober” logo are
-          trademarks belonging to IEA, Inc. You are not authorized by us
-          to use our trademarks or brand assets without prior permission.
+          trademarks belonging to IEA, Inc. You are not authorized by us to use 
+          our trademarks or brand assets without prior permission.
         </p>
         <hr className="my-4" />
         <h6 className="text-primary">Proprietary rights owned by you</h6>

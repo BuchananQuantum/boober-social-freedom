@@ -68,10 +68,11 @@ const Rules = forwardRef((props, ref) => {
         <h6 className="text-primary">Reporting abuse</h6>
         <p className="mb-0 ps-3">
           If you think anyone is violating any of these Terms, please{' '}
-          <a href="mailto:buchananquantum@outlook.com">notify us</a> immediately. If you
-          received spam you think came from a Boober user, we want to{' '}
-          <a href="mailto:info@buchananquantum@outlook.com">hear about it</a>. If you think
-          anyone has posted material that violates any copyrights, then you may{' '}
+          <a href="mailto:buchananquantum@outlook.com">notify us</a> 
+           immediately. If you received spam you think came from a Boober user,
+           we want to{' '}
+          <a href="mailto:info@buchananquantum@outlook.com">hear about it</a>. 
+          If you think anyone has posted material that violates any copyrights, then you may{' '}
           <a href="mailto:info@buchananquantum@outlook.com">notify us</a>
         </p>
         <hr className="my-4" />

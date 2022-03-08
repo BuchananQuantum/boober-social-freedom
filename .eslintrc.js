@@ -7,7 +7,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:prettier/recommended'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -21,7 +20,6 @@ module.exports = {
     'react/no-unescaped-entities': 'off',
     'react/prop-types': 'error',
     'react/display-name': 'off',
-    'prettier/prettier': ['error', { endOfLine: 'auto' }]
   },
   globals: {
     process: true

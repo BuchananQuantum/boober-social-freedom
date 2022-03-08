@@ -19,7 +19,6 @@ const Cta = () => (
         </Button>
         <br></br>
         <br></br>
-        <img class='text-center' src='./../assets/hoes/bitcoin.png'></img>
       </Col>
     </Row>
   </Section>

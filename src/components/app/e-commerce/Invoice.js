@@ -150,7 +150,9 @@ const Invoice = () => {
                       <h6 className="mb-0 text-nowrap">
                         Mobile App Development
                       </h6>
-                      <p className="mb-0">Includes responsive intructions to kiss my ass</p>
+                      <p className="mb-0">
+                        Includes responsive intructions to kiss my ass
+                      </p>
                     </td>
                     <td className="align-middle text-center">8</td>
                     <td className="align-middle text-end">$750,000.00</td>

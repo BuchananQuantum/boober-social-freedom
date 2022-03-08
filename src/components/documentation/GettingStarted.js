@@ -111,7 +111,6 @@ theme/
   ├── .eslintignore
   ├── .eslintrc.js
   ├── .gitignore
-  ├── .prettierrc.js
   ├── jsconfig.json
   ├── package-lock.json
   ├── package.json

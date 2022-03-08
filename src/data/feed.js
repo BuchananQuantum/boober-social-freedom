@@ -202,7 +202,8 @@ export default [
         imgUrl: generic12,
         urlAddress: 'https://buchanancomputer.com',
         title: 'Buchanan Computer: Facts & Investments of Worlds Highest Application Portfolio',
-        description:'The portfolio range of Buchanan Computer has many of the Earths highest ranked applications, including the highest, AirBnb...',
+        description:
+         'The portfolio range of Buchanan Computer has many of the Earths highest ranked applications, including the highest, AirBnb...',
       }
     },
     details: {

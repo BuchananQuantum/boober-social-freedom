@@ -108,20 +108,37 @@ const darkModeExampleCode = `function DarkModeExample(){
 const DarkMode = () => (
   <>
     <PageHeader title="Dark Mode" className="mb-3">
-      <p className="mt-2 mb-0">Switch to dark or light <Link to="/documentation/customization/configuration"> configuration page</Link></p>
+      <p className="mt-2 mb-0">
+        Switch to dark or light 
+        <Link to="/documentation/customization/configuration"> 
+        configuration page
+        </Link>
+      </p>
     </PageHeader>
 
     <BooberComponentCard>
       <BooberComponentCard.Header title="Toggle Dark Mode" light={false}>
-        <p className="mt-2 mb-0">Toggling dark is very easy in Boober. You can toggle dark or light by using checkbox, radio input, switch input and custom icon component.</p>
+        <p className="mt-2 mb-0">
+          Toggling dark is very easy in Boober. You can toggle dark or light by 
+          using checkbox, radio input, switch input and custom icon component.
+        </p>
       </BooberComponentCard.Header>
-      <BooberComponentCard.Body code={darkModeExampleCode} scope={{ AppContext, FontAwesomeIcon }} language="jsx"/>
+      <BooberComponentCard.Body 
+      code={darkModeExampleCode} 
+      scope={{ AppContext, FontAwesomeIcon }} 
+      language="jsx"/>
     </BooberComponentCard>
 
     <BooberComponentCard>
       <BooberComponentCard.Header title="Modify Dark colors" light={false} noPreview/>
       <BooberComponentCard.Body>
-        <p className="mb-0">You can find all the variables used to create the dark mode in <code> src/assets/scss/theme/root/_dark.scss </code> file. If you want to override a variable, copy that variable to{' '} <code> src/assets/scss/_user-variables.scss </code> file and update it as you see fit. After changing the variable build your scss again.</p>
+        <p className="mb-0">
+          You can find all the variables used to create the dark mode in 
+          <code> src/assets/scss/theme/root/_dark.scss </code> 
+          file. If you want to override a variable, copy that variable to{' '} 
+          <code> src/assets/scss/_user-variables.scss </code> 
+          file and update it as you see fit. After changing the variable build your scss again.
+          </p>
       </BooberComponentCard.Body>
     </BooberComponentCard>
 
@@ -134,8 +151,14 @@ const DarkMode = () => (
       <BooberComponentCard.Body>
         <h6 className="fs-0">You can keep a style constant regardless of current (light - dark) mode</h6>
         <p>If you want a component to retain it’s color (light or dark) as it is regardless of the current mode, you can use the following classeNames -</p>
-        <p><code> .light </code> - It will keep the color light even if thecurrent mode is dark</p>
-        <p><code> .dark </code> - It will keep the color dark even if the currentmode is light</p>
+        <p>
+          <code> .light </code> - It will keep the color light even if 
+          thecurrent mode is dark
+          </p>
+        <p><code> .dark </code> 
+         - It will keep the color dark even if the 
+         currentmode is light
+        </p>
 
         <Row>
           <Col>

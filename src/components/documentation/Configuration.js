@@ -25,8 +25,8 @@ const Configuration = () => (
   <>
     <PageHeader title="Setting up configuration" className="mb-3">
       <p className="mt-2 mb-0">
-        Boober Social Freedom Network has a global configuration system. You can change the theme
-        settings with a single global javascript object.
+        Boober Social Freedom Network has a global configuration system. You can 
+        change the theme settings with a single global javascript object.
       </p>
     </PageHeader>
 
