@@ -24,21 +24,12 @@ export default { version, navbarBreakPoint, topNavbarBreakpoint, settings };`;
 const Configuration = () => (
   <>
     <PageHeader title="Setting up configuration" className="mb-3">
-      <p className="mt-2 mb-0">
-        Boober Social Freedom Network has a global configuration system. You can change the theme
-        settings with a single global javascript object.
-      </p>
+      <p className="mt-2 mb-0">Boober Social Freedom Network has a global configuration system. You can change the themesettings with a single global javascript object.</p>
     </PageHeader>
-
     <Card className="mb-3">
       <BooberCardHeader title="Settings configuration" />
       <Card.Body>
-        <p>
-          Control side panel settings from one place. Go to{' '}
-          <code>src/config.js</code> file and set your setting configuration. If
-          any config value is already saved in local storage and you want to
-          change the default config, please clear the local storage first.
-        </p>
+        <p>Control side panel settings from one place. Go to{' '} <code>src/config.js</code> file and set your setting configuration. If any config value is already saved in local storage and you want to change the default config, please clear the local storage first.</p>
         <BooberEditor code={configCode} language="js" hidePreview />
       </Card.Body>
     </Card>
@@ -81,9 +72,7 @@ const Configuration = () => (
                 <code>false</code>
               </td>
               <td>
-                Set <code>true</code> to make the whole layout RTL (Right to
-                Left). Recommended for languages such as Arabic, Hebrew, or
-                other RTL languages.
+                Set <code>true</code> to make the whole layout RTL (Right to Left). Recommended for languages such as Arabic, Hebrew, orother RTL languages.
               </td>
             </tr>
 

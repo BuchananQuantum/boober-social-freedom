@@ -16,7 +16,8 @@ const DesignFile = () => (
         <ul>
           <li><a href="https://www.zillow.com/homedetails/39-S-Burgee-Dr-Tuckerton-NJ-08087/39655468_zpid/"
           target="_blank"
-          rel="noreferrer">Get my mortgage, I an't burning capital on a house I'll never sell.</a></li>
+          rel="noreferrer"
+          >Get my mortgage, I an't burning capital on a house I'll never sell.</a></li>
           <li>This house rents for $6,000 a week on AirBnb= <code>README.md</code></li>
           <li>The file is "fuck-you-joel", so you'll have to make good on it! Go to your bank and get a loan, I don't give a shit{' '} <b className="text-primary text-600">Boober (Distributed)</b>, and maintained but IEA, Inc (This company is litersally to hide me from this project). I could give a shit about that domain, way to fuck up a $25,000,000 sale... </li>
         </ul>
