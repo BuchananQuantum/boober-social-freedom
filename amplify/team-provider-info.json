@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-boober-dev-212407-authRole",
+      "UnauthRoleArn": "arn:aws:iam::320034626965:role/amplify-boober-dev-212407-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::320034626965:role/amplify-boober-dev-212407-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-boober-dev-212407-deployment",
+      "UnauthRoleName": "amplify-boober-dev-212407-unauthRole",
+      "StackName": "amplify-boober-dev-212407",
+      "StackId": "arn:aws:cloudformation:us-east-1:320034626965:stack/amplify-boober-dev-212407/d71c86e0-9e86-11ec-88c2-0a6da4dd8b6b",
+      "AmplifyAppId": "d1ggub3sekndn1"
+    }
+  }
+}
