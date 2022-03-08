@@ -74,24 +74,9 @@ const EmailDetail = () => {
                   <h3 className="fw-semi-bold">
                     Happy International Pay your Fucking Bill Day!
                   </h3>
-                  <p>
-                    On International Pay your Fucking Bill Day, we at Buchanan Quantum we want you to
-                    discover the skills you can learn from our Coach at being responsible and
-                    paying your bills on time.
-                  </p>
-                  <p>
-                    That's not all, when you enroll in one of their programs, use
-                    promo code:
-                    <code> DH-0001 </code>and get
-                    <a href="#!" className="fw-semi-bold">
-                      {' '}
-                      20% off{' '}
-                    </a>
-                    as our Pay Your Bills Day gift to you. This offer{' '}
-                    <a href="#!" className="fw-semi-bold">
-                      expires in 7 days
-                    </a>{' '}
-                    —so pick your course—and enroll today!
+                  <p>On International Pay your Fucking Bill Day we at Buchanan Quantum we want you to discover the skills you can learn from our Coach at being responsible and paying your bills on time. </p>
+                  <p>That's not all, when you enroll in one of their programs, use: <br></br> promo code:
+                    <code> DH-0001 </code>and get <a href="#!" className="fw-semi-bold"> {' '}20% off{' '} </a> as our Pay Your Bills Day gift to you. This offer{' '} <a href="#!" className="fw-semi-bold">expires in 7 days </a>{' '} so pick your course—and enroll today!
                   </p>
                   <div className="text-center">
                     <Button variant="success" size="lg" className="my-3">

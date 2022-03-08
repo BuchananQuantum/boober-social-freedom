@@ -17,7 +17,7 @@ const CustomerDetailsHeader = () => {
         <Row>
           <Col>
             <h5 className="mb-2">
-              John Buchanan (<a href="mailto:buchananqunatum@gmail.com">buchananqunatum@gmail.com</a>)
+              John Buchanan (<a href="#!">buchananqunatum@gmail.com</a>)
             </h5>
             <IconButton
               iconClassName="fs--2 me-1"
