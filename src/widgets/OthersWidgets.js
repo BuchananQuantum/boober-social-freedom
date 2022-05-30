@@ -24,7 +24,7 @@ import SoftBadge from 'components/common/SoftBadge';
 import ProjectLocation from 'components/dashboards/project-management/project-location/ProjectLocation';
 import CalendarManagement from 'components/dashboards/project-management/calendar/CalendarManagement';
 import DoMoreCard from 'components/dashboards/saas/DoMoreCard';
-import TeamProgress from 'components/dashboards/project-management/TeamProgress';
+
 import Discussion from 'components/dashboards/project-management/Discussion';
 import LogoutContent from 'components/authentication/LogoutContent';
 import ConfirmMailContent from 'components/authentication/ConfirmMailContent';
@@ -100,15 +100,6 @@ const OthersWidgets = () => {
         </Col>
         <Col lg={4}>
           <DoMoreCard className="h-100" />
-        </Col>
-      </Row>
-
-      <Row className="g-3 mb-3">
-        <Col lg={6}>
-          <TeamProgress />
-        </Col>
-        <Col lg={6}>
-          <Discussion data={discussionMembers} />
         </Col>
       </Row>
 

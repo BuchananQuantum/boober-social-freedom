@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Greetings from './Greetings';
-import TeamProgress from './TeamProgress';
 import Discussion from './Discussion';
 import CalendarManagement from './calendar/CalendarManagement';
 import ProjectStatistics from './project-statistics/ProjectStatistics';
@@ -34,9 +33,6 @@ const ProjectManagement = () => {
       <Row className="g-3 mb-3">
         <Col xxl={6} lg={12}>
           <Greetings data={greetingItems} />
-        </Col>
-        <Col xxl={3} md={6}>
-          <TeamProgress />
         </Col>
         <Col xxl={3} md={6}>
           <Discussion data={discussionMembers} />
